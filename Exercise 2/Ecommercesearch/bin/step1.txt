@@ -1,0 +1,13 @@
+Explain Big O notation and how it helps in analyzing algorithms.
+Ans->
+Big O notation is a mathematical notation used to describe the upper bound of the time complexity of an algorithm. It provides a high-level understanding of how the runtime of an algorithm grows relative to the input size. This helps in analyzing and comparing the efficiency of different algorithms.
+O(1): Constant time - the runtime does not change with the size of the input.
+O(n): Linear time - the runtime grows linearly with the input size.
+O(log n): Logarithmic time - the runtime grows logarithmically as the input size increases.
+O(n^2): Quadratic time - the runtime grows quadratically with the input size.
+
+Describe the best, average, and worst-case scenarios for search operations.
+Ans->
+Best Case: The element is found immediately (e.g., at the first position).
+Average Case: The element is found somewhere in the middle of the collection.
+Worst Case: The element is not found or is at the last position (for linear search) or requires searching through the entire array (for binary search).

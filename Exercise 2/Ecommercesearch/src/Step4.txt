@@ -1,0 +1,15 @@
+Compare the time complexity of linear and binary search algorithms.
+Ans->
+Linear Search:
+Best Case: O(1) - The product is found at the first position.
+Average Case: O(n) - The product is found somewhere in the middle.
+Worst Case: O(n) - The product is not found or is at the last position.
+
+Binary Search:
+Best Case: O(1) - The product is found at the middle position.
+Average Case: O(log n) - The search space is halved with each step.
+Worst Case: O(log n) - The product is not found after several divisions.
+
+Discuss which algorithm is more suitable for your platform and why.
+Ans->
+Binary Search is more suitable for the e-commerce platform due to its logarithmic time complexity, especially when dealing with a large number of products. Although it requires the array to be sorted, the efficiency gained from faster search times makes it advantageous in scenarios where search operations are frequent.
