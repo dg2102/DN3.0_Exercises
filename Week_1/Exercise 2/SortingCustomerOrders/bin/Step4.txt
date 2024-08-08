@@ -1,0 +1,17 @@
+Compare the performance (time complexity) of Bubble Sort and Quick Sort.
+Ans->
+Bubble Sort:
+Best Case: O(n) (if the array is already sorted)
+Average Case: O(n²)
+Worst Case: O(n²) (when the array is sorted in reverse)
+
+Quick Sort:
+Best Case: O(n log n) (when the pivot divides the array into two equal halves)
+Average Case: O(n log n)
+Worst Case: O(n²) (occurs when the smallest or largest element is always chosen as the pivot)
+
+Discuss why Quick Sort is generally preferred over Bubble Sort.
+Ans->
+Efficiency: Quick Sort is generally faster than Bubble Sort due to its O(n log n) average and best-case time complexity compared to Bubble Sort's O(n²).
+Divide and Conquer: It effectively reduces the problem size with each recursive call, leading to better performance on larger datasets.
+In-place Sorting: Quick Sort sorts the array in place, requiring less additional memory compared to Merge Sort.

@@ -1,0 +1,24 @@
+
+o	Analyze the time complexity of each operation.
+ans->
+Add Task:
+Time Complexity: O(n) (in the worst case, if adding at the end)
+Explanation: Requires traversal to the end of the list unless adding at the head.
+
+Search Task:
+Time Complexity: O(n)
+Explanation: Requires traversal of the list to find the task.
+
+Traverse Tasks:
+Time Complexity: O(n)
+Explanation: Must visit each node to print or access task details.
+
+Delete Task:
+Time Complexity: O(n)
+Explanation: Requires searching for the task before deletion.
+
+o	Discuss the advantages of linked lists over arrays for dynamic data
+Ans->
+Dynamic Size: Linked lists can grow and shrink in size dynamically, allowing for efficient memory usage without the need to define a fixed size upfront.
+Efficient Insertions/Deletions: Adding or removing tasks can be done without shifting elements, which is necessary in arrays. This makes linked lists more efficient for frequent modifications.
+No Wasted Space: Since linked lists allocate memory for each element as needed, there’s no wasted space (as can happen with arrays if they are not fully utilized).

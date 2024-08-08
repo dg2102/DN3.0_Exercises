@@ -1,0 +1,4 @@
+Analyze the time complexity of each operation (add, update, delete) in your chosen data structure.
+Ans->Add Product: O(1) - Inserting a new product into a HashMap is generally constant time.
+Update Product: O(1) - Retrieving the product and updating it also takes constant time.
+Delete Product: O(1) - Removing a product from a HashMap takes constant time.

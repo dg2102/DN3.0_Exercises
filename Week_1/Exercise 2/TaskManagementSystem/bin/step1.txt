@@ -1,0 +1,11 @@
+Explain the different types of linked lists (Singly Linked List, Doubly Linked List).
+Ans->
+Singly Linked List:
+Structure: Consists of nodes where each node contains a data field and a pointer/reference to the next node in the sequence.
+Traversal: Can only be traversed in one direction (from the head to the tail).
+Operations: Adding or removing nodes can be done easily at the beginning or end, but searching for a specific node requires traversal from the head.
+
+Doubly Linked List:
+Structure: Each node contains three fields: a data field, a pointer to the next node, and a pointer to the previous node.
+Traversal: Can be traversed in both directions (forward and backward).
+Operations: More flexible than singly linked lists for deletion and insertion since you have access to both previous and next nodes.

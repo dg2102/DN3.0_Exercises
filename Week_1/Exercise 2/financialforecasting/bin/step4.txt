@@ -1,0 +1,9 @@
+
+o	Discuss the time complexity of your recursive algorithm.
+Ans->
+Time Complexity: O(n)
+Explanation: The function makes a single recursive call for each year, leading to a linear number of calls proportional to the number of years. Each call performs a constant amount of work (calculating the future value)
+
+o	Explain how to optimize the recursive solution to avoid excessive computation.
+ans->
+To avoid excessive computation and improve efficiency, we can use memoization to store previously computed results. This prevents recalculating the future value for the same parameters multiple times.

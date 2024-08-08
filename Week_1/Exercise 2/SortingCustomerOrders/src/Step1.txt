@@ -1,0 +1,29 @@
+Explain different sorting algorithms (Bubble Sort, Insertion Sort, Quick Sort, Merge Sort).
+Ans->
+1.Bubble Sort
+Description: A simple comparison-based sorting algorithm. It repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. This process is repeated until the list is sorted.
+Time Complexity:
+Best Case: O(n) (already sorted)
+Average Case: O(n²)
+Worst Case: O(n²)
+
+2. Insertion Sort
+Description: Builds a sorted array one item at a time. It takes each element from the unsorted section and inserts it into the correct position in the sorted section.
+Time Complexity:
+Best Case: O(n) (already sorted)
+Average Case: O(n²)
+Worst Case: O(n²)
+
+3. Quick Sort
+Description: A divide-and-conquer algorithm that selects a 'pivot' element and partitions the other elements into two sub-arrays according to whether they are less than or greater than the pivot. The sub-arrays are then sorted recursively.
+Time Complexity:
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n²) (rare, occurs with poor pivot choices)
+
+4. Merge Sort
+Description: Another divide-and-conquer algorithm that divides the array into halves, sorts each half, and then merges the sorted halves back together.
+Time Complexity:
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n log n)
